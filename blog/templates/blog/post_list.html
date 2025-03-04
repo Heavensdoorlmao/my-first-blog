@@ -8,9 +8,6 @@
         <header>
             <h1><a href="/">Django Girls Blog</a></h1>
         </header>
-
-        <QuerySet [<Post: My second post>, <Post: My first post>]>
-
             {% for post in posts %}
             <article>
                 <time>published: {{ post.published_date }}</time>
